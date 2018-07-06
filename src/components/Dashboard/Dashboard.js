@@ -1,10 +1,11 @@
 import React from 'react';
+import House from '../House/House';
 
 class Dashboard extends Component {
     render(){
         return( 
-            Dashboard
-            
+            <House/>
+
         )
     }
 }
