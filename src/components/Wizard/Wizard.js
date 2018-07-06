@@ -1,9 +1,11 @@
-import React from 'react';
+import React, { Component } from 'react';
 
 class Wizard extends Component {
 render(){
         return( 
-            Wizard
+           <div>
+               Wizard
+           </div>
         )
     }
 }

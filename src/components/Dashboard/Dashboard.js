@@ -1,10 +1,13 @@
-import React from 'react';
+import React, { Component } from 'react';
 import House from '../House/House';
 
 class Dashboard extends Component {
     render(){
         return( 
-            <House/>
+            <div>
+                Dashboard
+                <House/>
+            </div>
 
         )
     }

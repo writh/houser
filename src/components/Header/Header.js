@@ -1,7 +1,9 @@
 import React from 'react';
 
 const Header = function() {
-    return <div>Header</div>
+    return <div>
+        Header
+    </div>
 };
 
 
