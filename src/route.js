@@ -1,12 +1,13 @@
-import {Switch, Route} from 'react-router-dom';
-import Dashboard from '../src/components/Dashboard/Dashboard'
-import Wizard from '../src/components/Wizard/Wizard'
-import React from 'react';
+import {Switch, Route} from 'react-router-dom'
+import Wizard from './components/Wizard/Wizard'
+import Dashboard from './components/Dashboard/Dashboard'
+import React from 'react'
 
-
-export default (
-    <Switch>
-      <Route component={ Dashboard } exact path="/" />
-      <Route component={ Wizard } path="/wizard" />
-    </Switch>
-  )
+export default function Routes(){
+    return (
+        <Switch>
+            <Route exact path= "/" component= {Dashboard}/>
+            <Route path ="/wizard" component= {Wizard} />
+        </Switch>
+    )
+}

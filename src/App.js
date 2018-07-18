@@ -1,22 +1,20 @@
 import React, { Component } from 'react';
+import logo from './logo.svg';
 import './App.css';
-import Header from './components/Header/Header';
-import Routes from './route';
-import { Switch, Route } from 'react-router-dom';
+import Dashboard from './components/Dashboard/Dashboard'
+import Wizard from './components/Wizard/Wizard'
+import Header from './components/Header/Header'
+import Routes from "./route"
 
 class App extends Component {
   render() {
     return (
-      <div>
-      <nav className='nav'>
+      <div className="App">
       <Header/>
-      <Switch>
-            <Route path="/" />
-      </Switch>
-      </nav>
-
-      { Routes }
-    </div>
+      <Routes/>
+      
+        
+      </div>
     );
   }
 }
